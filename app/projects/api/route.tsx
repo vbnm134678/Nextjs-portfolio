@@ -25,9 +25,5 @@ export const getPosts = React.cache(async () => {
     ],
   });
 
-  const postID = posts.results.map((post) => (
-    post.properties.Name.title[0].plain_text
-  ))
-  console.log(postID);
-  return postID;
+  return posts;
 })
