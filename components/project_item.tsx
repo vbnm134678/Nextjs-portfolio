@@ -12,7 +12,7 @@ export default function ProjcetItem({ data }: { data: any }) {
     startDate: data.properties.Date.date.start,
     endDate: data.properties.Date.date.end,
   };
-  console.log(projectData.img_url);
+
   return (
     <section className="project-card">
       <div className="h-2/4">
