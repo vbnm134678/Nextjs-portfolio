@@ -1,7 +1,7 @@
 import { Client } from '@notionhq/client';
 import React from 'react';
 
-export const getPosts = React.cache(async () => {
+export const GET = React.cache(async () => {
   const notionDatabase = new Client({
     auth: process.env.NOTION_API_KEY
   })
