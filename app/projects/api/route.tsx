@@ -1,9 +1,7 @@
 import { Client } from '@notionhq/client';
-import { QueryDatabaseResponse } from '@notionhq/client/build/src/api-endpoints';
-import { NextRequest } from 'next/server';
 import React from 'react';
 
-export async function GET() {
+export const getPost = React.cache(async () => {
   const notionDatabase = new Client({
     auth: process.env.NOTION_API_KEY
   })
@@ -28,4 +26,4 @@ export async function GET() {
   });
 
   return posts;
-}
+})
