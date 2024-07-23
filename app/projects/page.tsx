@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { getPost } from "./api/route";
+import { GET } from "./api/route";
 import { projectsArray } from "@/types";
 import ProjcetItem from "@/components/project_item";
 
@@ -10,7 +10,7 @@ export const metadata = {
 
 export default async function Projects() {
 
-  const projects = await getPost() as projectsArray;
+  const projects = await GET() as projectsArray;
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-6 mb-10">
       <h1 className="text-4xl font-bold sm:text-5xl">
