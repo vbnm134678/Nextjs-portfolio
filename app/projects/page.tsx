@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { GET } from "./api/route";
-import { projectsArray } from "@/types";
 import ProjcetItem from "@/components/project_item";
 
 export const metadata = {
