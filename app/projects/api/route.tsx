@@ -29,3 +29,7 @@ const getPost = React.cache(async (): Promise<any> => {
 })
 
 export { getPost as GET };
+
+// from: return { message: 'Failed to create' };
+
+// To: return NextResponse.json({ error: 'Failed to create' }, { status: 400 });

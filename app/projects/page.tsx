@@ -10,7 +10,7 @@ export const metadata = {
 
 export default async function Projects() {
 
-  const projects = await GET() as HTMLElement;
+  const projects = await GET();
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-6 mb-10">
       <h1 className="text-4xl font-bold sm:text-5xl">

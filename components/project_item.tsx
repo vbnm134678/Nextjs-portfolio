@@ -28,6 +28,7 @@ export default function ProjcetItem({ data }: { data: any }) {
           width={500}
           height={500}
           quality={100}
+          priority={true}
         // layout="responsive"
         />
       </div>
