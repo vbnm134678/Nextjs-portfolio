@@ -6,7 +6,6 @@ export const metadata = {
   title: 'Projects',
 }
 
-
 export default async function Projects() {
 
   const projects = await GET();
