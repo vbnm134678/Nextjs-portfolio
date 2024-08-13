@@ -17,7 +17,7 @@ const getPost = React.cache(async (): Promise<any> => {
     database_id: db_id,
     sorts: [
       {
-        property: 'Name',
+        property: 'Date',
         direction: 'ascending',
       },
     ],
@@ -28,7 +28,6 @@ const getPost = React.cache(async (): Promise<any> => {
 export default async function Projects() {
 
   const projects = await getPost();
-  console.log(projects);
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-6 mb-10">
       <h1 className="text-4xl font-bold sm:text-5xl">
