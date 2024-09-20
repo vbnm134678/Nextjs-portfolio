@@ -18,7 +18,7 @@ const getPost = React.cache(async (): Promise<any> => {
     sorts: [
       {
         property: 'Date',
-        direction: 'ascending',
+        direction: 'descending',
       },
     ],
   });
