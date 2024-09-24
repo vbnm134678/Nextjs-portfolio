@@ -43,8 +43,14 @@ You can check web site with Vercel : [nextjs-portfolio](https://nextjs-portfolio
 "next-themes": "^0.3.0",
 "notion-client": "^6.16.0",
 "react": "^18.3.1",
+"tailwindcss": "^3.4.4",
+"typescript": "^5"
+"eslint": "^8"
 ```
 
 ## Documentation
 프로젝트에 대해 정리되어 있는 Notion 페이지 : 
 [Notion_Next.js Portfolio](https://veil-limpet-f0d.notion.site/My-Portfolio-0c9875a1a86346569b1c40084f274ed2)
+
+## License
+Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
