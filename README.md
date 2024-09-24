@@ -44,8 +44,8 @@ You can check web site with Vercel : [nextjs-portfolio](https://nextjs-portfolio
 "notion-client": "^6.16.0",
 "react": "^18.3.1",
 "tailwindcss": "^3.4.4",
-"typescript": "^5"
-"eslint": "^8"
+"typescript": "^5",
+"eslint": "^8",
 ```
 
 ## Documentation
